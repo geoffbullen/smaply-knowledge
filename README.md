@@ -1,9 +1,8 @@
-# Website
+# Smaply Knowledge
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
-
 
 Before diving into the project, make sure you have the following tools and accounts set up:
 
@@ -31,10 +30,6 @@ Start 'er up:
 ```bash
 npm start
 ```
-## 6. Useful Resources
-
-- [Docusaurus](https://docusaurus.io/docs)
-
 
 > 💡 **Tip**
 >
