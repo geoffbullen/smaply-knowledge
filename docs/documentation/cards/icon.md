@@ -1,3 +1,0 @@
-# Icon
-
-Content coming soon...

@@ -1,3 +1,0 @@
-# Journey Mapping
-
-Content coming soon...

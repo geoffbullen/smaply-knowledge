@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmaply_knowledge=self.webpackChunksmaply_knowledge||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/smaply-knowledge/blog","blogTitle":"Blog"}')}}]);

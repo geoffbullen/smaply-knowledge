@@ -1,3 +1,0 @@
-# Text
-
-Content coming soon...

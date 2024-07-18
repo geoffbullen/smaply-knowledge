@@ -1,3 +1,0 @@
-# Shared Accounts
-
-Content coming soon...

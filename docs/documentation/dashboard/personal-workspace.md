@@ -1,3 +1,0 @@
-# Personal Workspace
-
-Content coming soon...

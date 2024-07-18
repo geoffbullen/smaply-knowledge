@@ -1,3 +1,0 @@
-# Opportunity
-
-Content coming soon...

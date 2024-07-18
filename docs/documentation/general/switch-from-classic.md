@@ -1,3 +1,0 @@
-# Switch From Classic
-
-Content coming soon...
