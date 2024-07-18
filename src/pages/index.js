@@ -52,16 +52,10 @@ function HomepageHeader() {
       style={backgroundStyle}
     >
       <div className="container">
-      <Heading
-          as="h3"
-          className={clsx("hero__title")}
-        >
+        <Heading as="h3" className={clsx("hero__title")}>
           Smaply 3.0
         </Heading>
-        <Heading
-          as="h1"
-          className={clsx("hero__title", styles.hugeHeroTitle)}
-        >
+        <Heading as="h1" className={clsx("hero__title", styles.hugeHeroTitle)}>
           Knowledge Center
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -77,7 +71,7 @@ function HomepageHeader() {
         <div className={styles.buttons} style={{ marginTop: "40px" }}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs/tutorial/intro"
           >
             I'm ready to learn Smaply 3.0!
           </Link>

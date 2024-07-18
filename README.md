@@ -4,38 +4,40 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 ### Installation
 
-```
-$ yarn
-```
 
-### Local Development
+Before diving into the project, make sure you have the following tools and accounts set up:
 
-```
-$ yarn start
-```
+- [Node.js (LTS version)](https://nodejs.org/en/download/)
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code](https://code.visualstudio.com/download)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 2. Quick Started
 
-### Build
+Clone the repository to your local machine:
 
-```
-$ yarn build
+```bash
+git clone https://piatradeco@dev.azure.com/piatradeco/PIA-Orchestrator/_git/PIA-Community
+cd PIA-Community
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Install the required dependencies:
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm install
 ```
 
-Not using SSH:
+Start 'er up:
 
+```bash
+npm start
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+## 6. Useful Resources
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- [Docusaurus](https://docusaurus.io/docs)
+
+
+> 💡 **Tip**
+>
+> **Paste images from clipboard** 
+>
+> This can save a ton of time if you're creating how to guides. Try [this](https://marketplace.visualstudio.com/items?itemName=Liu-Yongle.paste-image-to-markdown) vscode extension.
