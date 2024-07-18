@@ -15,8 +15,8 @@ Before diving into the project, make sure you have the following tools and accou
 Clone the repository to your local machine:
 
 ```bash
-git clone https://piatradeco@dev.azure.com/piatradeco/PIA-Orchestrator/_git/PIA-Community
-cd PIA-Community
+git clone https://github.com/geoffbullen/smaply-knowledge
+cd smaply-knowledge
 ```
 
 Install the required dependencies:
