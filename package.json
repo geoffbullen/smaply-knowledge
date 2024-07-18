@@ -2,6 +2,7 @@
   "name": "smaply-knowledge",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://geoffbullen.github.io/smaply-knowledge/",
   "scripts": {
     "docusaurus": "docusaurus",
     "dev": "docusaurus start",

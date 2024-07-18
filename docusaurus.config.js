@@ -13,15 +13,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://geoffbullen.github.io', // Your GitHub Pages URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/smaply-knowledge/', // Your repo name with trailing slash
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'more-than-metrics', // Usually your GitHub org/user name.
-  projectName: 'smaply-docs', // Usually your repo name.
+  organizationName: 'geoffbullen', // Your GitHub username
+  projectName: 'smaply-knowledge', // Your repo name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,13 +42,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/more-than-metrics/smaply-docs/tree/main/',
+          editUrl: 'https://github.com/geoffbullen/smaply-knowledge/tree/main/',
         },
         blog: {
           showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/more-than-metrics/smaply-docs/tree/main/',
+          editUrl: 'https://github.com/geoffbullen/smaply-knowledge/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -104,7 +103,6 @@ const config = {
           },
           { href: 'https://www.smaply.com', label: 'Website', position: 'right' },
           { href: 'https://www.smaply.com/blog', label: 'Blog', position: 'right' },
-
         ],
       },
       footer: {
