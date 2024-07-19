@@ -17,13 +17,13 @@ function HomepageVideo() {
         style={{ maxWidth: "1200px", marginInline: "auto", fontWeight: 100 }}
       >
         A 10 minute walkthrough from our founder Marc of how to get
-        started and the core features that will help you become a Smaply pro
+        started and the core features will help you become a Smaply pro
         before you know it.
       </h3>
       <div className={styles.buttons} style={{ marginTop: "40px" }}>
         <Link
           className="button button--secondary button--lg blue"
-          to="/docs/documentation/general/journey-management"
+          to="docs/documentation/editor/index-editor"
         >
           Take me to the guides
         </Link>
