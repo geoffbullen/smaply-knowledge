@@ -6,6 +6,13 @@ const sidebars = {
   docsSidebar: [
     {
       type: "category",
+      label: "Working in the editor",
+      items: [
+        { type: "doc", id: "documentation/editor/common-card-actions" }
+      ]
+    },
+    {
+      type: "category",
       label: "Journey building blocks",
       link: { type: "doc", id: "documentation/editor/index-editor" },
       items: [
@@ -37,7 +44,7 @@ const sidebars = {
                   label: "Image",
                   href: "??",
                 },
-         
+
                 {
                   type: "link",
                   label: "Linked Maps",

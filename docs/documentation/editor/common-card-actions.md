@@ -1,0 +1,10 @@
+# Common card actions
+
+| **Action**     | **Video Example**                                                                                     | **Description**                                                                                                      |
+|----------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **Clone card**   | <video src="/smaply-knowledge/videos/editor/cntrl_d_to_clone.mp4" autoPlay loop muted width="250"></video> | Create a copy of an existing card to reuse it elsewhere in the journey map. <br /><br /> 🚀 Set first card as a template to quickly populate a lane |
+| **Span**         | <video src="/smaply-knowledge/videos/editor/span_card.mp4" autoPlay loop muted width="250"></video>        | Spread a card across multiple lanes to indicate that it affects multiple stages or aspects of the journey.           |
+| **Delete**       | <video src="/smaply-knowledge/videos/editor/delete_card.mp4" autoPlay loop muted width="250"></video>      | Remove a card from the journey map.                                                                                  |
+| **Open details** | <video src="/smaply-knowledge/videos/editor/open_details.mp4" autoPlay loop muted width="250"></video>     | View and edit the details of a card to add more information or adjust its content.                                   |
+| **Link persona** | <video src="/smaply-knowledge/videos/editor/link_persona.mp4" autoPlay loop muted width="250"></video>     | Associate a persona with a card to show which user type it pertains to.                                              |
+| **Comment**      | <video src="/smaply-knowledge/videos/editor/comment.mp4" autoPlay loop muted width="250"></video>          | Add comments to a card to discuss its content with your team.                                                        |
