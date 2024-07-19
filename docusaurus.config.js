@@ -9,7 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Smaply 3.0 Knowledge base',
-  tagline: 'Customer Journey Mapping Enhanced',
+  tagline: 'Customer Journey Mapping Reimagined',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

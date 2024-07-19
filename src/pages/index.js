@@ -3,6 +3,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
+import HomepageVideo from "@site/src/components/HomepageVideo";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -52,9 +53,10 @@ function HomepageHeader() {
       style={backgroundStyle}
     >
       <div className="container">
-        <Heading as="h3" className={clsx("hero__title")}>
+        {/* <Heading as="h3" className={clsx("hero__title")}>
           Smaply 3.0
-        </Heading>
+        </Heading> */}
+        <p className="hero__subtitle">Smaply 3.0</p>
         <Heading as="h1" className={clsx("hero__title", styles.hugeHeroTitle)}>
           Knowledge Center
         </Heading>
@@ -63,9 +65,7 @@ function HomepageHeader() {
         <p className={styles.introText}>
           Welcome to the Smaply Knowledge Center, your go-to resource for
           mastering customer journey mapping. Explore our guides, tips, and
-          tutorials designed to help you get the most out of Smaply 3.0.
-          Discover how Smaply can empower your team to collaborate effectively
-          and drive meaningful improvements.
+          tutorials designed to help you get the most out of Smaply.
         </p>
 
         <div className={styles.buttons} style={{ marginTop: "40px" }}>
@@ -73,7 +73,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/tutorial/intro"
           >
-            I'm ready to learn Smaply 3.0!
+            I'm ready to learn Smaply 3.0
           </Link>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomepageVideo />
       </main>
     </Layout>
   );
