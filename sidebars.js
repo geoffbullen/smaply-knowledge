@@ -13,6 +13,15 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Metrics",
+      items: [
+        { type: "doc", label: "Get started with Metrics", id: "documentation/metrics/get-started" },
+        { type: "doc", label: "Types of Metrics", id: "documentation/metrics/types-of-metrics" },
+        { type: "doc", label: "How to add a manual Metric", id: "documentation/metrics/how-to-add-a-manual-metric" }
+      ]
+    },
+    {
+      type: "category",
       label: "Journey building blocks",
       link: { type: "doc", id: "documentation/editor/index-editor" },
       items: [
@@ -81,6 +90,13 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "Markdown formatting",
+      items: [
+        { type: "doc", id: "documentation/markdown/mardown-editing" }
+      ]
+    }
     // {
     //   type: "category",
     //   label: "Accounts & Structure",
