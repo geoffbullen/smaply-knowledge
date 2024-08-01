@@ -90,13 +90,6 @@ const sidebars = {
         },
       ],
     },
-    {
-      type: "category",
-      label: "Markdown formatting",
-      items: [
-        { type: "doc", id: "documentation/markdown/mardown-editing" }
-      ]
-    }
     // {
     //   type: "category",
     //   label: "Accounts & Structure",

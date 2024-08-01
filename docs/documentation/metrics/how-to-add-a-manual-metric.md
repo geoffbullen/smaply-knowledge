@@ -1,73 +1,98 @@
 # How to add a manual Metric
-Metrics can be created manually by directly inputing data, pasting from external sources (Excel/ Sheets), or CSV file upload.
+Manual Metrics are the easiest way to get started using Metrics in your journey maps. They are simple to create and update and offer a range of flxible options to display your data.
 
+## Watch a quick tutorial
+<video src="/smaply-knowledge/videos/metrics/add_a_manual_metric_card.mp4" autoPlay loop muted width="750px"></video>
 
-## To add a manual metric, follow these steps:
+<br />
+---
+ <br />
 
-### 1. **Navigate to the Metrics menu:**
-In your Workspace, click on the "Metrics" menu.
+## Steps to add a manual Metric 
 
-![alt text](metrics-menu.png)
+### 1. Add a Metrics card to your journey map: 
+Add a Metrics card to a journey map.
+| <video src="/smaply-knowledge/videos/metrics/add_metric_card_480.mp4" autoPlay loop muted width="325px"></video> |
+|----------|
+
+### 2. Create a new Metric:
+Use the dropdown to select "**Create metric**" 
+
+| <video src="/smaply-knowledge/videos/metrics/create_metric_dropdown.mp4" autoPlay loop muted width="325px"></video> |
+|----------|
+
+<br />
+> **Note:** You can also add a new Metric via your Workspace menu. Navigate to "**Metrics**" then click on the "**Create metric**" button.
 <br />
 
-### 2. **Create a new Metric:**
-Click on the "Create metric" button.
-
-![alt text](create-metric.png)
-
-<video src="/smaply-knowledge/videos/metrics/create-metric.mp4" autoPlay loop muted width="500"></video>
-
-### 3. **Enter Metric details:**
-   - **Name:** In the "Name" field, enter a descriptive name for your metric (e.g., "Monthly visitors").
+### 3. Enter Metric details:
+   - **Name:** Enter a descriptive name for your metric (e.g., "Monthly visitors").
    - **Source:** Select "Manual (includes CSV upload)" from the "Source" dropdown menu.
-   - **Type:** Choose the metric type from the "Type" dropdown menu. The available options are:
+   - **Type:** Choose the metric type:
      - **Series:** For a series of data points.
      - **Number:** For a single numerical value.
      - **Comparison:** For comparing two values.
+
+<div style={{width:400}}>
+![Enter Metric details](enter_metric_data.png)
+</div> 
+
+
 <br />
 
 ### 4. Enter your data:
-Depending on the "Type" selected, you will be shown different inputs for your Metric. 
+Depending on the "Type" selected, you will be shown different input options for your Metric. 
 
-   #### Series Metrics:
-   If you selected "Series" as the Metric Type, a two-column table will appear:
-      - **Label:** Enter a label for each data point.
-      - **Value:** Enter the corresponding value.
-      - You can also:
-      - **Upload CSV:** Click the "Upload CSV" link to import data from a CSV file.
-      - **Paste Data:** Use the tooltip to paste data directly into the table from external sources like Excel or Google Sheets.
-      - **Add Row:** Click the "+ Add row" button below the table to manually add more rows.
+   **Series Metrics:**
+      - A "Series" Metric shows a two-column table where you can enter a label and corresponding value. Click the "+ Add row" button below the table to manually add more rows.
+   > **Note:** You can also **Upload CSV** or **Paste** directly into the table from external sources like Excel or Google Sheets.
 <br />
 
-   #### Number Metrics:
-      If you selected "Number" as the Metric Type, a singler text input will appear. 
-      - **Value:** Enter the value you wish to display. You can also choose to add a symbol.
-      - **Symbol (Optional):** You can also choose to add a prefix symbol (i.e. $).
-<br />
-
-   #### Comparison Metrics:
-      If you selected "Comparison" as the Metric Type, two text inputs will appear. 
-      - **Current value:** Enter the values you wish to display. You can also choose to add a symbol.
-      - **VPrevious value:** 
+   **Number Metrics:**
+      - A "Number" Metric shows a singler text input with the option to add a prefix symbol (i.e. $)
 
 <br />
-### 5. **Preview the Metric:**
-   - After entering the data, the "Show preview" button on the right side of the screen will be activated. Click it to see a preview of the metric card you are creating.
+
+   **Comparison Metrics:**
+      - A "Comparison" Metric shows two text inputs, one for a Current value and another for a Previous value. You also have the option to add a prefix symbol.
 
 <br />
-### 6. **Set Display defaults:**
+
+### 5. Preview the Metric:
+After entering your data, click the "Show preview" button on the right side of the screen.
+<div style={{width:400}}>
+![Enter Metric details](show_preview.png)
+</div> 
+
+<br />
+
+### 6. Set Display defaults:
    Below the preview, you can set the "Display defaults" for this metric. 
-   > **Note:** Changing display defaults only impact new cards; existing cards linked to this metric on journey maps won’t be changed.
+   
+<br/> 
+   > **Note:** Changing display defaults **only impacts new cards**; existing cards linked to this metric on journey maps won’t be changed.
+ <br/> 
 
-   - **Chart Type:** Select the default chart type (options depend on the metric type and include Bar chart, Horizontal bar, Pie chart, Line chart, and Table).
-   - **Chart Heading:** Optionally, add a heading for the chart.
-   - **Chart Subheading:** Optionally, add a subheading for the chart.
-   - **Additional Options:** Depending on the chart type, configure additional options such as:
-     - **Latest value as the headline:** Display the last value as a large number above the chart.
-     - **Start values at zero on axis:** Ensure the chart starts at zero.
-     - **Show titles on right:** Display titles on the right side of the chart.
-     - **Target (Number Metrics only):** Compare the number against a target value.
+- **Chart Type:**  <br />
+Select the default chart type (options depend on the metric type and include Bar chart, Horizontal bar, Pie chart, Line chart, and Table). 
+- **Chart Heading:**  <br />
+Add a heading for the chart (optional). 
+- **Chart Subheading:**  <br />
+Add a subheading for the chart (optional).
+
+- **Additional Options:**  <br />
+Depending on the chart type, configure additional options such as:
+   - **Latest value as the headline:** Display the last value as a large number above the chart.
+   - **Start values at zero on axis:** Ensure the chart starts at zero.
+   - **Show titles on right:** Display titles on the right side of the chart.
+   - **Target (Number Metrics only):** Compare the number against a target value.
+
+
+| <video src="/smaply-knowledge/videos/metrics/metric_display_defaults.mp4" autoPlay loop muted width="750px"></video> |
+|----------|
+
 
 <br />
-### 7. **Save the Metric:**
+
+### 7. Save the Metric:
    Once you are satisfied with the details and display default settings, save the Metric.

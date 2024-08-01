@@ -5,7 +5,6 @@ Series metrics involve a sequence of data points collected over a period or cate
  **Display Options:**
 - **Bar Chart:** Visualizes data points as vertical bars, useful for comparing categories.
 - **Horizontal Bar:** Similar to the bar chart but with horizontal bars, ideal for long category names.
-
 - **Pie Chart:** Displays data as slices of a pie, showing relative proportions.
 - **Line Chart:** Plots data points on a line, best for showing trends over time.
 - **Table:** Lists data points systematically, suitable for detailed viewing.
