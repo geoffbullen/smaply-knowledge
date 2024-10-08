@@ -21,6 +21,7 @@ A service account acts as a virtual user for your application, allowing secure, 
 1. In your Google Cloud project, go to "APIs & Services" > "Library"
 2. Search for "Google Analytics Data API"
 3. Click on the API and then click "Enable"
+4. Do the same for the Google Analytics Admin API
 
 :::warning **Important** 
 Enabling the API is crucial for accessing GA4 data. Make sure you've completed this step before proceeding.
